@@ -6,8 +6,9 @@ namespace LibraryApi.Interfaces
     {
         List<Book> GetAll();
         Book GetById(int id);
-        void Add(Book book);
-        void Update(int id, Book updatedBook);
-        void Delete(int id);
+        Task<List<Book>> GetAllBooksFromElasticsearchAsync();
+        Task Update(int id, Book updatedBook);
+        Task Delete(int id);
+        Task AddAsync(Book book);
     }
 }

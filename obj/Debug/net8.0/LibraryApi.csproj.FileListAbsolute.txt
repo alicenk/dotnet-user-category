@@ -5,6 +5,7 @@ C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Li
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\LibraryApi.runtimeconfig.json
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\LibraryApi.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\LibraryApi.pdb
+C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Elasticsearch.Net.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -21,9 +22,12 @@ C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Mi
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Nest.dll
+C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -112,6 +116,7 @@ C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\Li
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.csproj.CoreCompileInputs.cache
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.sourcelink.json
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\staticwebassets\msbuild.LibraryApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -126,5 +131,3 @@ C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\re
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.pdb
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\LibraryApi.genruntimeconfig.cache
 C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\obj\Debug\net8.0\ref\LibraryApi.dll
-C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
-C:\Users\Ali\Desktop\Demo-Projects\dotnetprojects\LibraryApi\bin\Debug\net8.0\StackExchange.Redis.dll

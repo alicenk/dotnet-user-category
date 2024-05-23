@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using LibraryApi.Models;
-using LibraryApi.Services;
 using LibraryApi.Interfaces;
 
 namespace LibraryApi.Controllers
@@ -27,10 +26,17 @@ namespace LibraryApi.Controllers
             return book;
         }
 
+        [HttpGet("from-elasticsearch")]
+        public async Task<IActionResult> GetAllBooksFromElasticsearch()
+        {
+            var books = await _bookService.GetAllBooksFromElasticsearchAsync();
+            return Ok(books);
+        }
+
         [HttpPost]
         public IActionResult Create(Book book)
         {
-            _bookService.Add(book);
+            _bookService.AddAsync(book);
             return CreatedAtAction(nameof(Get), new { id = book.Id }, book);
         }
 

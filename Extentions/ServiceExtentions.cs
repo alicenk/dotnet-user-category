@@ -9,6 +9,7 @@ namespace LibraryApi.Extentions{
             services.AddScoped<IBookService, BookService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<RedisService>(); 
+            services.AddScoped<ElasticsearchService>(); 
         }
     }
 }

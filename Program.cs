@@ -1,6 +1,8 @@
+using LibraryApi.Creator;
 using LibraryApi.Data;
 using LibraryApi.Extentions;
 using Microsoft.EntityFrameworkCore;
+using Nest;
 using StackExchange.Redis;
 
 
@@ -17,6 +19,15 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"), true);
     return ConnectionMultiplexer.Connect(configuration);
 });
+
+//Elasticsearch Bağlantısı
+var settings = new ConnectionSettings(new Uri(builder.Configuration["Elasticsearch:Uri"]));
+var client = new ElasticClient(settings);
+// Elasticsearch servisini ekleyin
+builder.Services.AddSingleton<IElasticClient>(client);
+// Elasticsearch indexlerini oluşturan servis
+var indexCreator = new ElasticsearchIndexCreator(client);
+indexCreator.CreateIndices();
 
 // Servisler
 builder.Services.AddApplicationServices();
